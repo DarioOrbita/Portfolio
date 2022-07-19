@@ -1,0 +1,18 @@
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+
+nav {
+
+    font-size: 40px;
+
+}
