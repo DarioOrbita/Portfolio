@@ -111,20 +111,20 @@ header a:visited {
     max-width: 80%;
     margin-left:auto;
     margin-right: auto;
-    background-image: url(../css/img/movie-finder-img.JPG);
+    background-image: url(../img/movie-finder-img.JPG);
     
 
 }
 
 .my-work #taskinator {
     max-width: 50%;
-    background-image: url(../css/img/taskinator-img.JPG);
+    background-image: url(../img/taskinator-img.JPG);
     
 }
 
 .my-work #taskmaster-pro {
     max-width: 50%;
-    background-image: url(../css/img/taskmaster-pro-img.JPG);
+    background-image: url(../img/taskmaster-pro-img.JPG);
 
 }
 /*end my work section*/
