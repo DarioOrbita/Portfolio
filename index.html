@@ -5,37 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css"/>
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
-<body>
 
+<body>
     <header>
-        <h1>Portfoli-O's</h1>
+        <h1>Dario Orbita Presents: Portfoli-O's!</h1>
+        <div id="header-img">
+            <img class="self-photo" src="../Portfolio/assets/img/self-photo.jpg" alt="">
+        </div>
 
         <nav>
 
-            <a href="index.html">Link 1</a>
-            <a href="index.html">Link 2</a>
-            <a href="index.html">Link 3</a>
-            <a href="index.html">Link 4</a>
+            <a class="page-link" href="#about-me-link">About Me</a>
+            <a class="page-link" href="#my-work-link">My Work</a>
+            <a class="page-link" href="#contact-me-link">Contact Me</a>
 
         </nav>
+    </header>   
+ 
+    <section class="about-me">
+        <a id="about-me-link"></a>
+        <div>
+            About Me: As this is a WIP portfolio i'm leaving this section as placeholder for future work. lorem ipsum and all that jazz.
+        </div>
+    </section>
 
-    </header>
-
-    <body>
-        
-        <section class="project-links">
-    
-            <div>
-                <div>
-                    <a href="https://darioorbita.github.io/Movie-Finder/">lonk 2 projekt</a>
-                </div>
+    <section class="my-work">
+        <a id="my-work-link"></a>
+         <div class="project-links">
+            <div id="movie-finder">
+                <a href="https://darioorbita.github.io/Movie-Finder/">Movie Finder</a>
             </div>
-    
-        </section>
-        
-    </body>
-    
+            
+            <div id="taskinator">
+                <a href="https://darioorbita.github.io/taskinator/">Taskinator</a>
+            </div>
+
+            <div id="taskmaster-pro">
+                <a href="https://darioorbita.github.io/taskmaster-pro/">Taskmaster Pro</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a id="contact-me-link"></a>
+        Contact me at: 
+            <a href="mailto: orbita.dario@gmail.com">orbita.dario@gmail.com</a>
+    </footer>
 </body>
 </html>
